@@ -1,0 +1,24 @@
+Here is a simple derivation of the formula which allows simple calculations (and provides for the logarithmic chart). There was a thread a few months ago where Jan Perlwitz from GISS was questioning this simple formula and I wasn’t checking my email enough to respond in time but here it is now.
+Temp C Response = TempC/Forcing * Forcing
+Either shown as (the IPCC shortcut method):
+Temp C Response = 0.81C/W/m2 * 5.35*ln(CO2ppm/280ppm) ;
+or alternatively, (Temps will increase by 3.0C per CO2 doubling, same math):
+Temp C Response = 3/ln(2) * 5.35*ln(CO2ppm/280ppm)
+Now: ln(X/Y) = ln(X) – ln(Y)
+Temp C Response = 0.81*5.35*ln(CO2ppm) – 0.81*5.35*ln(280)
+Temp C Response = 4.33 * ln(CO2ppm) – 24.4
+Now we traditionally say the anomaly of temperature versus today was -0.4C when CO2 was 280 ppm (1760 or so); so,
+Temp C Anomaly = 4.33 * ln (CO2 ppm) – 24.8C
+Now you can put in any CO2 number you want into that formula and what will pop out is what the theory of global warming at 3.0C per doubling says the temperature anomaly will be.
+It will look like this (note I threw in some historic temperatures which do not follow the trends at all anyway – something else is the driver):
+http://s4.postimg.org/pi837i4b1/Logarithmic_Warming_3_C_per_doubling.png
+In practise however, the IPCC has a lag of when temperatures catch up to the GHG doubling and the chart looks more like this on the IPCC AR5 trendline – Zoomed-in to see it a little better).
+http://s23.postimg.org/uyfrmdsvf/Zoom_In_Log_Warming_IPCC_Trendline.png
+
+
+https://wattsupwiththat.com/2013/05/08/the-effectiveness-of-co2-as-a-greenhouse-gas-becomes-ever-more-marginal-with-greater-concentration/
+
+http://web.archive.org/web/20090630133202/https://www.grida.no/publications/other/ipcc_tar/?src=/climate/ipcc_tar/wg1/222.htm
+
+https://www.ipcc.ch/site/assets/uploads/2018/03/TAR-06.pdf
+
