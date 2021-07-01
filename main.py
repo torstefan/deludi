@@ -29,7 +29,7 @@ def f1(C, C0):
     return (3 / np.log(2)) * alfa * np.log(C/C0)
 
 def f2(C, C0):
-    return alfa * np.log(C/C0) + beta * (np.sqrt(C) - np.sqrt(C0))
+    return CWm2 * alfa * np.log(C/C0) + beta * (np.sqrt(C) - np.sqrt(C0))
 
 def g(C):
     return np.log( 1 + 1.2*C + 0.005*C**2 + 1.4*10**-6 * C**3)
